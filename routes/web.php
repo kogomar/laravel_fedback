@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('feedback');
 });
 // Маршруты аутентификации...
 Route::get('auth/login', 'Auth\AuthController@getLogin');

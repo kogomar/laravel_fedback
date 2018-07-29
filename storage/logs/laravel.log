@@ -112,3 +112,74 @@ Did you mean one of these?
 #4 /home/kogomar/www/laravel/test/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #5 {main}
 "} 
+[2018-07-29 06:00:30] local.ERROR: Command "make:migrayion" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrayion\" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at /home/kogomar/www/laravel/test/vendor/symfony/console/Application.php:632)
+[stacktrace]
+#0 /home/kogomar/www/laravel/test/vendor/symfony/console/Application.php(226): Symfony\\Component\\Console\\Application->find('make:migrayion')
+#1 /home/kogomar/www/laravel/test/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/kogomar/www/laravel/test/vendor/laravel/framework/src/Illuminate/Console/Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/kogomar/www/laravel/test/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/kogomar/www/laravel/test/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2018-07-29 06:00:45] local.ERROR: Too many arguments, expected arguments "command" "name". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\" \"name\". at /home/kogomar/www/laravel/test/vendor/symfony/console/Input/ArgvInput.php:182)
+[stacktrace]
+#0 /home/kogomar/www/laravel/test/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('-')
+#1 /home/kogomar/www/laravel/test/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 /home/kogomar/www/laravel/test/vendor/symfony/console/Command/Command.php(210): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#3 /home/kogomar/www/laravel/test/vendor/laravel/framework/src/Illuminate/Console/Command.php(171): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#4 /home/kogomar/www/laravel/test/vendor/symfony/console/Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/kogomar/www/laravel/test/vendor/symfony/console/Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 /home/kogomar/www/laravel/test/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /home/kogomar/www/laravel/test/vendor/laravel/framework/src/Illuminate/Console/Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 /home/kogomar/www/laravel/test/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/kogomar/www/laravel/test/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
