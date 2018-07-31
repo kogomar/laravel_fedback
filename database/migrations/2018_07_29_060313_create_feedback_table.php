@@ -21,7 +21,7 @@ class CreateFeedbackTable extends Migration
             $table->string('user_email', 100);
             $table->string('file', 255);
             $table->timestamp('added_on');
-            $table->integer('read');
+            $table->boolean('read');
         });
     }
 
